@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "strictPropertyInitialization": false,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -17,7 +18,7 @@
     "module": "es2020",
     "lib": [
       "es2018",
-      "dom"
+      "es5", "es6", "dom", "dom.iterable"
     ],
     "useDefineForClassFields": false
   },
