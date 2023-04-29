@@ -1,0 +1,34 @@
+<mat-tab-group (selectedTabChange)="onSelectedTabChange($event)" mat-stretch-tabs="false">
+  <mat-tab label="Categories">
+      <div class="container" *ngIf="showCategories">
+        <mat-card [style.margin]="'20px'" *ngFor="let category of categories | async">
+          <mat-card-content [style.textAlign]="'center'">
+            <button type="button" (click)="onCategoryClick(category.id)" class="tile-button"
+                    mat-button>
+              {{category.name}}
+            </button>
+  
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+  
+      <div *ngIf="showArticles">
+        <app-items-table (onBackToCategories)="onBackToCategories()" [favorites]="false" [cat_id]="cat_id"></app-items-table>
+      </div>
+    
+  </mat-tab>
+
+  <mat-tab label="Favorites">
+    <ng-container  *ngIf="fav_mode">
+      <app-items-table [favorites]="true"></app-items-table>
+
+    </ng-container >
+
+  </mat-tab>
+
+</mat-tab-group>
+
+
+
+

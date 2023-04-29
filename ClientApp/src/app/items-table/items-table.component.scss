@@ -1,0 +1,50 @@
+table {
+  overflow: auto;
+}
+
+.container {
+  height: 600px;
+  overflow: auto;
+  background: white;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  // cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-column-name {
+  font-weight: bold;
+}
+
+.mat-drawer-content {
+  width: 50%;
+}
+
+.mat-mdc-row {
+  // cursor: pointer;
+}
+
+
+.mat-column-color {
+  width: 30px;
+}
+
+.mat-column-name {
+  width: 50%;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}

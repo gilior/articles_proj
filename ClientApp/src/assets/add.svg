@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" version="1.0">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#080"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="h" x1="87.135818" x2="133.07745" y1="64.36039" y2="64.36039" gradientTransform="rotate(90 99.35534 29.00505)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="g" x1="517.85712" x2="517.85712" y1="520.57648" y2="595.53839" gradientTransform="translate(-453.85714 -456.57648)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="f" x1="72.71875" x2="44.25" y1="69.578125" y2="99.953125" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
+    <linearGradient xlink:href="#b" id="d" x1="68.447266" x2="48.609955" y1="67.811272" y2="47.973961" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="e" x1="61.41518" x2="24.566963" y1="62.104912" y2="78.979912" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
+    <filter id="c">
+      <feGaussianBlur stdDeviation="1.065"/>
+    </filter>
+  </defs>
+  <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M65 13c-28.69876 0-52 23.30126-52 52 0 28.69875 23.30124 52 52 52s52-23.30125 52-52c0-28.69874-23.30124-52-52-52zm0 11.625c22.29029 0 40.375 18.08472 40.375 40.375 0 22.29029-18.0847 40.375-40.375 40.375S24.625 87.2903 24.625 65c0-22.29028 18.0847-40.375 40.375-40.375zM59.4375 37c-1.385 0-2.5 1.115-2.5 2.5v18h-18c-1.385 0-2.5 1.115-2.5 2.5v10c0 1.385 1.115 2.5 2.5 2.5h18v18c0 1.385 1.115 2.5 2.5 2.5h10c1.385 0 2.5-1.115 2.5-2.5v-18h18c1.385 0 2.5-1.115 2.5-2.5V60c0-1.385-1.115-2.5-2.5-2.5h-18v-18c0-1.385-1.115-2.5-2.5-2.5h-10z" filter="url(#c)"/>
+  <path fill="url(#d)" stroke="url(#e)" stroke-width="2.50000024" d="M68.46875 60.31234V38.5H58.4483v20.30188H37.84375V69.25h21.6737"/>
+  <path fill="url(#f)" d="M70.27966 57.15625 56.71875 70.71564V90.75h13.77852V70.59375H90.375v-13.4375H70.27966z"/>
+  <path fill="url(#g)" stroke="#060" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M64 12.00953c-28.69876 0-51.99048 23.29172-51.99048 51.99046 0 28.69875 23.29172 51.99049 51.99048 51.99049 28.69876 0 51.99048-23.29174 51.99048-51.99049 0-28.69874-23.29172-51.99046-51.99048-51.99046zm0 11.60951c22.29029 0 40.38096 18.09067 40.38096 40.38095 0 22.29029-18.09066 40.38097-40.38096 40.38097-22.2903 0-40.38095-18.09067-40.38095-40.38097 0-22.29028 18.09065-40.38095 40.38095-40.38095z"/>
+  <path fill="none" stroke="url(#h)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M64 110.21448C38.47114 110.22199 17.77193 89.52887 17.77193 64c0-25.52886 20.69921-46.221983 46.22807-46.214472C89.52886 17.778017 110.22807 38.47114 110.22807 64c0 25.52887-20.69921 46.22199-46.22807 46.21448z"/>
+  <path fill="none" stroke="#060" stroke-linecap="round" stroke-width="2.5" d="M58.4375 36c-1.385 0-2.5 1.114999-2.5 2.5v18h-18c-1.385 0-2.5 1.114999-2.5 2.5v10c0 1.385 1.115 2.500003 2.5 2.5h18v18c0 1.385 1.115 2.500003 2.5 2.5h10c1.385 0 2.5-1.114997 2.5-2.5v-18h18c1.385 0 2.5-1.114997 2.5-2.5V59c0-1.385-1.115-2.500001-2.5-2.5h-18v-18c0-1.385-1.115-2.500001-2.5-2.5h-10z"/>
+</svg>
