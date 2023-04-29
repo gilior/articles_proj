@@ -26,6 +26,9 @@ mat-mdc-row .mat-mdc-cell {
 .mat-mdc-row:hover .mat-column-name {
   font-weight: bold;
 }
+.mat-column-image{
+  cursor: pointer;
+}
 
 .mat-drawer-content {
   width: 50%;

@@ -69,4 +69,8 @@ export class ItemsTableComponent {
         });
     }
   }
+
+  onCellClick(img:string){
+    window.open(img, "_blank");
+  }
 }
