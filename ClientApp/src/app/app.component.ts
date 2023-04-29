@@ -50,6 +50,9 @@ export class AppComponent {
 
   onSelectedTabChange(matTabChangeEvent: MatTabChangeEvent) {
     this.fav_mode = matTabChangeEvent.index == 1;
+    if (matTabChangeEvent.index==0){
+      this.onBackToCategories();
+    }
   }
 
 }
